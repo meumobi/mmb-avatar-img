@@ -1,4 +1,4 @@
-export declare class StImg {
+export declare class MmbAvatarImg {
     el: HTMLElement;
     src: string;
     alt: string;

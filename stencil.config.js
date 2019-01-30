@@ -1,8 +1,8 @@
 exports.config = {
-  namespace: 'stimg',
+  namespace: 'mmbavatarimg',
   generateDistribution: true,
   bundles: [
-    { components: ['st-img'] }
+    { components: ['mmb-avatar-img'] }
   ]
 };
 

@@ -5,7 +5,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 import { } from '@stencil/core';
-export class StImg {
+export class MmbAvatarImg {
     componentDidLoad() {
         this.addIntersectionObserver();
     }
@@ -55,8 +55,8 @@ export class StImg {
         return (h("img", { "data-src": this.src, alt: this.alt }));
     }
 }
-__decorate([], StImg.prototype, "el", void 0);
-__decorate([], StImg.prototype, "src", void 0);
-__decorate([], StImg.prototype, "alt", void 0);
-__decorate([], StImg.prototype, "oldSrc", void 0);
-StImg = __decorate([], StImg);
+__decorate([], MmbAvatarImg.prototype, "el", void 0);
+__decorate([], MmbAvatarImg.prototype, "src", void 0);
+__decorate([], MmbAvatarImg.prototype, "alt", void 0);
+__decorate([], MmbAvatarImg.prototype, "oldSrc", void 0);
+MmbAvatarImg = __decorate([], MmbAvatarImg);

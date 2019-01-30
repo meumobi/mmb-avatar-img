@@ -1,13 +1,13 @@
 {
   "components": [
     {
-      "tag": "st-img",
-      "componentClass": "StImg",
-      "componentPath": "components/st-img/st-img.js",
+      "tag": "mmb-avatar-img",
+      "componentClass": "MmbAvatarImg",
+      "componentPath": "components/mmb-avatar-img/mmb-avatar-img.js",
       "styles": {
         "$": {
           "stylePaths": [
-            "components/st-img/st-img.scss"
+            "components/mmb-avatar-img/mmb-avatar-img.scss"
           ]
         }
       },
@@ -35,7 +35,7 @@
   "bundles": [
     {
       "components": [
-        "st-img"
+        "mmb-avatar-img"
       ]
     }
   ],

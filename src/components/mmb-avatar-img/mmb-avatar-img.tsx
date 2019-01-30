@@ -2,11 +2,11 @@ import { Component, Element, Prop, State } from '@stencil/core';
 
 
 @Component({
-  tag: 'st-img',
-  styleUrl: 'st-img.scss',
+  tag: 'mmb-avatar-img',
+  styleUrl: 'mmb-avatar-img.scss',
   shadow: true
 })
-export class StImg {
+export class MmbAvatarImg {
 
   @Element() el: HTMLElement;
   

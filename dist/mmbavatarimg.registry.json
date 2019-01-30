@@ -1,11 +1,11 @@
 {
-  "namespace": "stimg",
+  "namespace": "mmbavatarimg",
   "components": [
     [
-      "st-img",
+      "mmb-avatar-img",
       [
-        "d3oogznk",
-        "i5s2khxs"
+        "8ntdl5jy",
+        "kmun8zgq"
       ],
       1,
       [
@@ -33,7 +33,7 @@
       1
     ]
   ],
-  "core": "stimg.tgzphr5i.js",
-  "coreSsr": "stimg.mxxrgbtb.js",
-  "corePolyfilled": "stimg.ilizfrdp.js"
+  "core": "mmbavatarimg.l5ow6f0c.js",
+  "coreSsr": "mmbavatarimg.agwklqok.js",
+  "corePolyfilled": "mmbavatarimg.ytmsndbd.js"
 }

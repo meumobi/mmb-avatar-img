@@ -1,6 +1,6 @@
 {
-  "name": "st-img",
-  "version": "0.3.0",
+  "name": "mmb-avatar-img",
+  "version": "0.0.2",
   "description": "Web Component built with Stencil to lazy load images",
   "main": "dist/collection/index.js",
   "types": "dist/collection/index.d.ts",
@@ -8,7 +8,7 @@
   "files": [
     "dist/"
   ],
-  "browser": "dist/stimg.js",
+  "browser": "dist/mmbavatarimg.js",
   "scripts": {
     "build": "stencil build",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jgw96/lazy-img.git"
+    "url": "git+https://github.com/meumobi/mmb-avatar-img.git"
   },
   "author": "Justin Willis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jgw96/lazy-img"
+    "url": "https://github.com/meumobi/mmb-avatar-img.git"
   },
-  "homepage": "https://github.com/jgw96/lazy-img"
+  "homepage": "https://github.com/meumobi/mmb-avatar-img.git"
 }

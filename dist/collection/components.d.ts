@@ -6,29 +6,29 @@
 
 
 import {
-  StImg as StImg
-} from './components/st-img/st-img';
+  MmbAvatarImg as MmbAvatarImg
+} from './components/mmb-avatar-img/mmb-avatar-img';
 
 declare global {
-  interface HTMLStImgElement extends StImg, HTMLElement {
+  interface HTMLMmbAvatarImgElement extends MmbAvatarImg, HTMLElement {
   }
-  var HTMLStImgElement: {
-    prototype: HTMLStImgElement;
-    new (): HTMLStImgElement;
+  var HTMLMmbAvatarImgElement: {
+    prototype: HTMLMmbAvatarImgElement;
+    new (): HTMLMmbAvatarImgElement;
   };
   interface HTMLElementTagNameMap {
-    "st-img": HTMLStImgElement;
+    "mmb-avatar-img": HTMLMmbAvatarImgElement;
   }
   interface ElementTagNameMap {
-    "st-img": HTMLStImgElement;
+    "mmb-avatar-img": HTMLMmbAvatarImgElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      "st-img": JSXElements.StImgAttributes;
+      "mmb-avatar-img": JSXElements.MmbAvatarImgAttributes;
     }
   }
   namespace JSXElements {
-    export interface StImgAttributes extends HTMLAttributes {
+    export interface MmbAvatarImgAttributes extends HTMLAttributes {
       src?: string;
       alt?: string;
     }
